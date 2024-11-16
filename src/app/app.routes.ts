@@ -5,20 +5,20 @@ import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
-    {
-        path: 'about',
-        component: AboutComponent,
-    },
-    {
-        path: 'projects',
-        component: ProjectsComponent
-    },
-    {
-        path: 'contact',
-        component: ContactComponent,
-    },
-    {
-        path: 'home',
-        component: HomeComponent
-    }
+  {
+    path: 'about',
+    component: AboutComponent,
+  },
+  {
+    path: 'projects',
+    component: ProjectsComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+  },
+  {
+    path: '',
+    component: HomeComponent,
+  },
 ];
